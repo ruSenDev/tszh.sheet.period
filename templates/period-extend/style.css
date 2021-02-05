@@ -1,0 +1,301 @@
+.history-mobi{
+    padding: 3px;
+}
+.history-mobi__month{
+    color: #34967d;
+    font-weight: bold;
+    /*cursor: pointer;*/
+}
+.history-mobi__period{
+    display: table;
+}
+.history-mobi hr {
+    margin-bottom: 15px;
+}
+.history-mobi__item{
+    display: table-row;
+}
+.history-mobi__period .history-mobi__item:nth-of-type(2) .history-mobi__name{
+    font-weight: bold;
+}
+.history-mobi__period .history-mobi__item:nth-of-type(2) .history-mobi__value{
+    color: red;
+}
+.history-mobi__item>div{
+    display: table-cell;
+    padding: 5px 0;
+}
+.history-mobi__item>div:first-child{
+    padding-right: 10px;
+}
+
+.charges-history__header {
+    text-align: right;
+    font-size: 15px;
+    padding: 23px 15px 15px 15px;
+}
+.charges-history__table {
+    overflow: auto;
+}
+.charges-history__table > table {
+    border-spacing: 0;
+    margin-top: 20px;
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+}
+.charges-history__table > table thead td:not(.charges-history__services) {
+    border-right: 1px solid #2b5f93;
+    border-top: 1px solid #2b5f93;
+    border-bottom: 1px solid #2b5f93;
+    font-weight: bolder;
+    height: 50px;
+    padding: 5px;
+}
+.charges-history__table > table thead td:not(.charges-history__services):nth-child(1) {
+    width: 13%;
+}
+.charges-history__table > table thead td:not(.charges-history__services):nth-child(n+2) {
+    width: 17%;
+}
+.charges-history__table > table thead td:not(.charges-history__services):last-child {
+    border-right: none;
+}
+.charges-history__table > table tbody td {
+    padding: 10px 5px;
+}
+.charges-history__period {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.charges-history__period_only_debt td{
+    cursor: auto;
+    text-decoration: none;
+    color: #A2A2A2;
+}
+.charges-history__services {
+    display: none;
+}
+.charges-history__period-visible td {
+    color: #A2A2A2;
+}
+.charges-history__period-visible + .charges-history__services {
+    display: table-row !important;
+}
+
+.charges-history__services > td > div {
+    border: 1px solid #a8a8a8;
+    background-color: #e7edf3;
+    text-align: left;
+    position: relative;
+}
+.charges-history__services table {
+    margin-top: 0 !important;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+    border-spacing: 0;
+}
+.charges-history__services table thead td {
+    background-color: #709dca;
+    color: #ffffff;
+    font-weight: normal !important;
+    border: 0 !important;
+}
+.charges-history__services table thead td:nth-child(1) {
+    width: 30% !important;
+}
+.charges-history__services table thead td:nth-child(n+2) {
+    width: 14% !important;
+}
+.charges-history__services table tbody td:first-child {
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.charges-history__services-close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    color: #ffffff;
+    font: 500 15px/15px verdana, sans-serif;
+    cursor: pointer;
+}
+.charges-history__services-close:after {
+    content: 'x';
+}
+.charges-history__print {
+    text-align: left;
+    margin: 15px 0 30px 95px;
+}
+.charges-history__print a {
+    color: #2b5f93;
+}
+.tabs input + label a{
+    text-decoration: none !important;
+    color: grey;
+}
+.tabs input:checked + label a{
+    color: #2b5f93;
+}
+.tabs input + label{
+    padding: 0 !important;
+}
+.tabs input + label a div{
+    padding: 14px 0;
+}
+
+.history-mobi__block {cursor: pointer}
+
+/************Flex-Table***********/
+.flex-table {
+    margin-top: 0 !important;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+    border-spacing: 0;
+}
+
+.flex-table-header
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+    background-color: #709dca;
+}
+
+.flex-table-body
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+    background-color: #E7EDF3;
+}
+
+.flex-table-body-column
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: stretch;
+    background-color: #E7EDF3;
+}
+
+.flex-table-header div {
+    border-right: 1px solid #2b5f93;
+    border-top: 1px solid #2b5f93;
+    border-bottom: 1px solid #2b5f93;
+    font-weight: bolder;
+    height: 50px;
+    padding: 5px;
+}
+.flex-table-header div:nth-child(1) {
+    width: 13%;
+}
+.flex-table-header div:nth-child(n+2) {
+    width: 17%;
+}
+.flex-table-header div:last-child {
+    border-right: none;
+}
+
+.flex-table-header div {
+    background-color: #709dca;
+    color: #ffffff;
+    font-weight: normal !important;
+    border: 0 !important;
+    text-align: center;
+
+}
+.flex-table-header div:nth-child(1) {
+    width: 30% !important;
+}
+.flex-table-header div:nth-child(n+2) {
+    width: 14% !important;
+}
+
+.flex-table-body .flex-table-body-column div:first-child {
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    flex-basis: 25%;
+}
+
+.flex-table-body  .flex-table-body-column div {
+    padding: 10px 5px;
+    flex-basis: auto;
+}
+
+/************Mobi-Table***********/
+
+.mobi-table {
+    margin-top: 0 !important;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+    border-spacing: 0;
+}
+
+.mobi-table-body {
+    display: table;
+    width: 100%;
+}
+
+.mobi-table-body div {
+     /*display: table-cell;*/
+     padding: 2px 0;
+}
+
+.mobi-table .history-mobi__item-main {
+    font-weight: bold;
+    padding: 5px 2px;
+    cursor: pointer;
+    display: none;
+}
+
+.charges-history__period-visible .history-mobi__item-main {
+    display: table-row !important;
+}
+
+.mobi-table .history-mobi__item-main .history-mobi__item-sub {
+    display: none;
+}
+
+.history-mobi__visible .history-mobi__item-sub {
+    display: table-row !important;
+}
+
+.mobi-table .history-mobi__item-main .history-mobi__item-sub div {
+    font-weight: normal !important;
+    color: inherit !important;
+    text-align: left;
+    background: #E7EDF3;
+    margin: 10px;
+    border: 1px solid #fff;
+    padding: 5px 10px;
+}
+
+.mobi-table-body .history-mobi__name-header {
+    font-weight: normal;
+    text-align: left;
+    background: #709dca;
+    color: #ffffff;
+    margin: 2px;
+    border: 1px solid #fff;
+    padding: 5px 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.mobi-table-body .history-mobi__value {
+    padding-left: 15px;
+}
