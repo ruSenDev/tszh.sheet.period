@@ -1,21 +1,21 @@
 <?
-$MESS["TSZH_SHEET_PERIOD"] = "Період";
-$MESS["TSZH_SHEET_DEBT"] = "Заборгованість";
-$MESS["TSZH_SHEET_BEG"] = "на початок періоду";
-$MESS["TSZH_SHEET_END"] = "на кінець періоду";
-$MESS["TSZH_SHEET_SUMM"] = "Нараховано";
-$MESS["TSZH_SHEET_SUMMPAYED"] = "Сплачено";
-$MESS["TSZH_SHEET_CLICK_TO_SHOW"] = "Клацніть, щоб переглянути послуги, що нараховані за місяць";
-$MESS["TSZH_SHEET_SERVICE"] = "Послуга";
-$MESS["TSZH_SHEET_TO_PAY"] = "До сплати";
-$MESS["TSZH_SHEET_NO_CHARGES"] = "У вас немає нарахувань.";
-$MESS["TSZH_SHEET_NO_DATA"] = "Немає даних для відображення.";
-$MESS["TSZH_SHOW_RECEIPT"] = "квитанція";
-$MESS["TSZH_SHOW_RECEIPT_LONG"] = "Переглянути квитанцію на оплату";
+$MESS["TSZH_SHEET_PERIOD"] = "РџРµСЂС–РѕРґ";
+$MESS["TSZH_SHEET_DEBT"] = "Р—Р°Р±РѕСЂРіРѕРІР°РЅС–СЃС‚СЊ";
+$MESS["TSZH_SHEET_BEG"] = "РЅР° РїРѕС‡Р°С‚РѕРє РїРµСЂС–РѕРґСѓ";
+$MESS["TSZH_SHEET_END"] = "РЅР° РєС–РЅРµС†СЊ РїРµСЂС–РѕРґСѓ";
+$MESS["TSZH_SHEET_SUMM"] = "РќР°СЂР°С…РѕРІР°РЅРѕ";
+$MESS["TSZH_SHEET_SUMMPAYED"] = "РЎРїР»Р°С‡РµРЅРѕ";
+$MESS["TSZH_SHEET_CLICK_TO_SHOW"] = "РљР»Р°С†РЅС–С‚СЊ, С‰РѕР± РїРµСЂРµРіР»СЏРЅСѓС‚Рё РїРѕСЃР»СѓРіРё, С‰Рѕ РЅР°СЂР°С…РѕРІР°РЅС– Р·Р° РјС–СЃСЏС†СЊ";
+$MESS["TSZH_SHEET_SERVICE"] = "РџРѕСЃР»СѓРіР°";
+$MESS["TSZH_SHEET_TO_PAY"] = "Р”Рѕ СЃРїР»Р°С‚Рё";
+$MESS["TSZH_SHEET_NO_CHARGES"] = "РЈ РІР°СЃ РЅРµРјР°С” РЅР°СЂР°С…СѓРІР°РЅСЊ.";
+$MESS["TSZH_SHEET_NO_DATA"] = "РќРµРјР°С” РґР°РЅРёС… РґР»СЏ РІС–РґРѕР±СЂР°Р¶РµРЅРЅСЏ.";
+$MESS["TSZH_SHOW_RECEIPT"] = "РєРІРёС‚Р°РЅС†С–СЏ";
+$MESS["TSZH_SHOW_RECEIPT_LONG"] = "РџРµСЂРµРіР»СЏРЅСѓС‚Рё РєРІРёС‚Р°РЅС†С–СЋ РЅР° РѕРїР»Р°С‚Сѓ";
 
-$MESS['TSZH_SHOW_TAB1_RECEIPT'] = "Основні послуги";
-$MESS['TSZH_SHOW_TAB2_RECEIPT'] = "Додаткові послуги";
+$MESS['TSZH_SHOW_TAB1_RECEIPT'] = "РћСЃРЅРѕРІРЅС– РїРѕСЃР»СѓРіРё";
+$MESS['TSZH_SHOW_TAB2_RECEIPT'] = "Р”РѕРґР°С‚РєРѕРІС– РїРѕСЃР»СѓРіРё";
 
-$MESS["TSZH_CHARGES_YANDEX_PAYMENT_DESCR"] = "за послуги ЖКГ по о/р № #ACCOUNT_NUMBER# за #PREV_MONTH#";
-$MESS["CITRUS_TSZHPAYMENT_LINK"] = "<p>Ви можете <a href=\"#LINK#\">оплатити комунальні послуги</a> онлайн.</p>";
+$MESS["TSZH_CHARGES_YANDEX_PAYMENT_DESCR"] = "Р·Р° РїРѕСЃР»СѓРіРё Р–РљР“ РїРѕ Рѕ/СЂ в„– #ACCOUNT_NUMBER# Р·Р° #PREV_MONTH#";
+$MESS["CITRUS_TSZHPAYMENT_LINK"] = "<p>Р’Рё РјРѕР¶РµС‚Рµ <a href=\"#LINK#\">РѕРїР»Р°С‚РёС‚Рё РєРѕРјСѓРЅР°Р»СЊРЅС– РїРѕСЃР»СѓРіРё</a> РѕРЅР»Р°Р№РЅ.</p>";
 ?>

@@ -1,29 +1,29 @@
 <?
-$MESS['TSZH_SHEET_PERIOD'] = "Период";
-$MESS['TSZH_SHEET_DEBT'] = "Задолженность";
-$MESS['TSZH_SHEET_BEG'] = "на начало периода";
-$MESS['TSZH_SHEET_END'] = "на конец периода";
-$MESS['TSZH_SHEET_SUMM'] = "Начислено";
-$MESS["TSZH_SHEET_CORRECTIONS"] = "Перерасчеты";
-$MESS['TSZH_SHEET_SUMMPAYED'] = "Оплачено";
-$MESS['TSZH_SHEET_CLICK_TO_SHOW'] = "Кликните, чтобы посмотреть услуги, начисленные за месяц";
-$MESS['TSZH_SHEET_SERVICE'] = "Услуга";
-$MESS['TSZH_SHEET_TO_PAY'] = "К оплате";
-$MESS['TSZH_SHEET_NO_CHARGES'] = "У вас нет начислений.";
-$MESS['TSZH_SHEET_NO_DATA'] = "Нет данных для отображения.";
-$MESS['TSZH_SHOW_RECEIPT'] = "квитанция";
-$MESS['TSZH_SHOW_RECEIPT_LONG'] = "Посмотреть квитанцию на оплату";
+$MESS['TSZH_SHEET_PERIOD'] = "РџРµСЂРёРѕРґ";
+$MESS['TSZH_SHEET_DEBT'] = "Р—Р°РґРѕР»Р¶РµРЅРЅРѕСЃС‚СЊ";
+$MESS['TSZH_SHEET_BEG'] = "РЅР° РЅР°С‡Р°Р»Рѕ РїРµСЂРёРѕРґР°";
+$MESS['TSZH_SHEET_END'] = "РЅР° РєРѕРЅРµС† РїРµСЂРёРѕРґР°";
+$MESS['TSZH_SHEET_SUMM'] = "РќР°С‡РёСЃР»РµРЅРѕ";
+$MESS["TSZH_SHEET_CORRECTIONS"] = "РџРµСЂРµСЂР°СЃС‡РµС‚С‹";
+$MESS['TSZH_SHEET_SUMMPAYED'] = "РћРїР»Р°С‡РµРЅРѕ";
+$MESS['TSZH_SHEET_CLICK_TO_SHOW'] = "РљР»РёРєРЅРёС‚Рµ, С‡С‚РѕР±С‹ РїРѕСЃРјРѕС‚СЂРµС‚СЊ СѓСЃР»СѓРіРё, РЅР°С‡РёСЃР»РµРЅРЅС‹Рµ Р·Р° РјРµСЃСЏС†";
+$MESS['TSZH_SHEET_SERVICE'] = "РЈСЃР»СѓРіР°";
+$MESS['TSZH_SHEET_TO_PAY'] = "Рљ РѕРїР»Р°С‚Рµ";
+$MESS['TSZH_SHEET_NO_CHARGES'] = "РЈ РІР°СЃ РЅРµС‚ РЅР°С‡РёСЃР»РµРЅРёР№.";
+$MESS['TSZH_SHEET_NO_DATA'] = "РќРµС‚ РґР°РЅРЅС‹С… РґР»СЏ РѕС‚РѕР±СЂР°Р¶РµРЅРёСЏ.";
+$MESS['TSZH_SHOW_RECEIPT'] = "РєРІРёС‚Р°РЅС†РёСЏ";
+$MESS['TSZH_SHOW_RECEIPT_LONG'] = "РџРѕСЃРјРѕС‚СЂРµС‚СЊ РєРІРёС‚Р°РЅС†РёСЋ РЅР° РѕРїР»Р°С‚Сѓ";
 
-$MESS['TSZH_SHOW_TAB1_RECEIPT'] = "Основная квитанция";
-$MESS['TSZH_SHOW_TAB2_RECEIPT'] = "Капитальный ремонт";
+$MESS['TSZH_SHOW_TAB1_RECEIPT'] = "РћСЃРЅРѕРІРЅР°СЏ РєРІРёС‚Р°РЅС†РёСЏ";
+$MESS['TSZH_SHOW_TAB2_RECEIPT'] = "РљР°РїРёС‚Р°Р»СЊРЅС‹Р№ СЂРµРјРѕРЅС‚";
 
-$MESS['TSZH_CHARGES_YANDEX_PAYMENT_DESCR'] = "за услуги ЖКХ по л/с № #ACCOUNT_NUMBER# за #PREV_MONTH#";
-$MESS["CITRUS_TSZHPAYMENT_LINK"] = "<p>Вы можете <a href=\"#LINK#\">оплатить коммунальные услуги</a> онлайн.</p>";
-$MESS['TSZH_SHEET_PERIOD_CHOOSE'] = "Период отображения квитанций с #period1# по #period2#";
-$MESS['TSZH_MONTH'] = 'Месяц';
-$MESS['TSZH_TOTAL_FOR_PAYMENT'] = 'Всего к оплате';
-$MESS['TSZH_COMPENSATION'] = 'Льгота';
-$MESS["TSZH_SHEET_CORRECTION"] = "Перерасчет";
-$MESS['TSZH_PRINT_RECEIPT_LONG'] = "Распечатать квитанцию";
+$MESS['TSZH_CHARGES_YANDEX_PAYMENT_DESCR'] = "Р·Р° СѓСЃР»СѓРіРё Р–РљРҐ РїРѕ Р»/СЃ в„– #ACCOUNT_NUMBER# Р·Р° #PREV_MONTH#";
+$MESS["CITRUS_TSZHPAYMENT_LINK"] = "<p>Р’С‹ РјРѕР¶РµС‚Рµ <a href=\"#LINK#\">РѕРїР»Р°С‚РёС‚СЊ РєРѕРјРјСѓРЅР°Р»СЊРЅС‹Рµ СѓСЃР»СѓРіРё</a> РѕРЅР»Р°Р№РЅ.</p>";
+$MESS['TSZH_SHEET_PERIOD_CHOOSE'] = "РџРµСЂРёРѕРґ РѕС‚РѕР±СЂР°Р¶РµРЅРёСЏ РєРІРёС‚Р°РЅС†РёР№ СЃ #period1# РїРѕ #period2#";
+$MESS['TSZH_MONTH'] = 'РњРµСЃСЏС†';
+$MESS['TSZH_TOTAL_FOR_PAYMENT'] = 'Р’СЃРµРіРѕ Рє РѕРїР»Р°С‚Рµ';
+$MESS['TSZH_COMPENSATION'] = 'Р›СЊРіРѕС‚Р°';
+$MESS["TSZH_SHEET_CORRECTION"] = "РџРµСЂРµСЂР°СЃС‡РµС‚";
+$MESS['TSZH_PRINT_RECEIPT_LONG'] = "Р Р°СЃРїРµС‡Р°С‚Р°С‚СЊ РєРІРёС‚Р°РЅС†РёСЋ";
 ?>
 
